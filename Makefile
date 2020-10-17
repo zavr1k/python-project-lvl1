@@ -1,14 +1,16 @@
 install:
-	poetry install
+		poetry install
 
 brain-games:
-	poetry run brain-games
+		poetry run brain-games
 
 build:
-	poetry build
+		poetry build
 
 package-install:
-	pip install --user dist/*.whl
+		pip install --user dist/*.whl
 
 lint:
-	poetry run flake8 brain_games
+		poetry run flake8 brain_games
+
+.PHONY: install lint build package-install
