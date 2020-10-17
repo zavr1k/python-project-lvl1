@@ -1,0 +1,15 @@
+name: Lynt
+
+on: push
+
+jobs:
+  linter:
+    name: My linter
+    runs-on: ubunty latest
+  
+    steps: 
+      -name: Checkout code
+      uses: actions/checkout@v2
+      
+      -name: Run lint
+      -run: make lint
