@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install poetry
-          make install
+          poetry install
 
       # Runs the Super-Linter action
       - name: Run My-Linter
