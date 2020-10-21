@@ -10,7 +10,9 @@ def even():
     if number % 2 == 0:
         if answer == 'yes':
             return True, "Correct!"
-        return False, "'yes' is wrong answer ;(. Correct answer was 'no'. \nLet's try again, "
+        return False, "'yes' is wrong answer ;(. Correct answer was 'no'." \
+                      " \nLet's try again, "
     if answer == 'no':
         return True, "Correct!"
-    return False, "'yes' is wrong answer ;(. Correct answer was 'no'. \nLet's try again, "
+    return False, "'yes' is wrong answer ;(. Correct answer was 'no'." \
+                  " \nLet's try again, "
