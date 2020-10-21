@@ -5,3 +5,4 @@
 
 ### Видео примеры игр:
 1. [Brain-even](https://asciinema.org/a/pLy3UTy9KqSF33CeAqGW9vPuQ)
+2. [Brain-calc](https://asciinema.org/a/vtm3OO6gi4GddRNWhUlzahSp0)
