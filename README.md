@@ -4,5 +4,7 @@
 ![Make lint](https://github.com/zavr1k/python-project-lvl1/workflows/Make%20lint/badge.svg)
 
 ### Видео примеры игр:
-1. [Brain-even](https://asciinema.org/a/pLy3UTy9KqSF33CeAqGW9vPuQ)
-2. [Brain-calc](https://asciinema.org/a/vtm3OO6gi4GddRNWhUlzahSp0)
+#### Brain-even
+[![asciicast](https://asciinema.org/a/pLy3UTy9KqSF33CeAqGW9vPuQ.svg)](https://asciinema.org/a/pLy3UTy9KqSF33CeAqGW9vPuQ)
+#### Brain-calc
+[![asciicast](https://asciinema.org/a/vtm3OO6gi4GddRNWhUlzahSp0.svg)](https://asciinema.org/a/vtm3OO6gi4GddRNWhUlzahSp0)
