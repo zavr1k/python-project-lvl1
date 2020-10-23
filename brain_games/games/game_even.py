@@ -9,10 +9,16 @@ def even():
     answer = answer.lower()
     if number % 2 == 0:
         if answer == 'yes':
-            return True, "Correct!"
-        return False, "'yes' is wrong answer ;(. Correct answer was 'no'." \
-                      " \nLet's try again, "
+            print("Correct!")
+            return True
+        print("'no' is wrong answer ;(. Correct answer was 'yes'.")
+        return False
     if answer == 'no':
-        return True, "Correct!"
-    return False, "'yes' is wrong answer ;(. Correct answer was 'no'." \
-                  " \nLet's try again, "
+        print("Correct!")
+        return True
+    print("'yes' is wrong answer ;(. Correct answer was 'no'.")
+    return False
+
+
+def rules():
+    print('Answer "yes" if the number is even, otherwise answer "no".')

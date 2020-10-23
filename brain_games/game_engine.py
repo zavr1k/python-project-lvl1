@@ -1,10 +1,14 @@
-def start_game(game, name):
+def run_game(game):
     for i in range(3):
-        status, message = game()
-        if status:
-            print(f"{message}, {name}!")
+        lap = game()
+        if lap:
             continue
-        print(f"{message}, {name}!")
-        break
+        return False
+    return True
+
+
+def game_result(res, name):
+    if res:
+        print(f"Congratulations, {name}")
     else:
-        print(f'Congratulations, {name}!')
+        print(f"Let's try again, {name}")

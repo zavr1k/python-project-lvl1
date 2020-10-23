@@ -16,5 +16,11 @@ def calc():
     answer = prompt.integer("Your answer: ")
     result = operators[operator](number1, number2)
     if answer == int(result):
-        return True, "Correct!"
-    return False, f"{answer} is wrong answer ;(. Correct answer was {result}"
+        print("Correct!")
+        return True
+    print(f"{answer} is wrong answer ;(. Correct answer was {result}")
+    return False
+
+
+def rules():
+    print("What is the result of the expression?")
