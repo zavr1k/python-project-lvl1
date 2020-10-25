@@ -8,16 +8,12 @@ def even():
     answer = prompt.string('Your answer: ')
     answer = answer.lower()
     if number % 2 == 0:
-        if answer == 'yes':
-            print("Correct!")
-            return True
-        print("'no' is wrong answer ;(. Correct answer was 'yes'.")
-        return False
-    if answer == 'no':
-        print("Correct!")
-        return True
-    print("'yes' is wrong answer ;(. Correct answer was 'no'.")
-    return False
+        question = 'yes'
+    else:
+        question = 'no'
+    if answer == question:
+        return True, answer, question
+    return False, answer, question
 
 
 def rules():

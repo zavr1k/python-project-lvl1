@@ -12,12 +12,10 @@ def gcd():
     number2 = randrange(199)
     print(f"Question: {number1} {number2}")
     answer = prompt.integer("Your answer: ")
-    result = get_gcd(number1, number2)
-    if answer == result:
-        print("Correct!")
-        return True
-    print(f'{answer} is wrong answer ;(. Correct answer was {result}.')
-    return False
+    question = get_gcd(number1, number2)
+    if answer == question:
+        return True, answer, question
+    return False, answer, question
 
 
 def get_prim_divisors(number):

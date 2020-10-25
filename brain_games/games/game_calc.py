@@ -14,12 +14,10 @@ def calc():
     operator = choice(list(operators.keys()))
     print(f"Question: {number1} {operator} {number2}")
     answer = prompt.integer("Your answer: ")
-    result = operators[operator](number1, number2)
-    if answer == int(result):
-        print("Correct!")
-        return True
-    print(f"{answer} is wrong answer ;(. Correct answer was {result}")
-    return False
+    question = operators[operator](number1, number2)
+    if answer == int(question):
+        return True, answer, question
+    return False, answer, question
 
 
 def rules():
