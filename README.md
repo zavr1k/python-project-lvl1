@@ -4,7 +4,13 @@
 ![Make lint](https://github.com/zavr1k/python-project-lvl1/workflows/Make%20lint/badge.svg)
 
 ### Видео примеры игр:
-#### Brain-even
+#### brain-even
 [![asciicast](https://asciinema.org/a/pLy3UTy9KqSF33CeAqGW9vPuQ.svg)](https://asciinema.org/a/pLy3UTy9KqSF33CeAqGW9vPuQ)
-#### Brain-calc
-[![asciicast](https://asciinema.org/a/vtm3OO6gi4GddRNWhUlzahSp0.svg)](https://asciinema.org/a/vtm3OO6gi4GddRNWhUlzahSp0)
+#### brain-calc
+[![asciicast](https://asciinema.org/a/BhUZcLqvpbdllvernXL4kxDlf.svg)](https://asciinema.org/a/BhUZcLqvpbdllvernXL4kxDlf)
+#### brain-gcd
+[![asciicast](https://asciinema.org/a/2Sd0Keam9bTlBY3Vck15ijrKh.svg)](https://asciinema.org/a/2Sd0Keam9bTlBY3Vck15ijrKh)
+#### brain-prime
+[![asciicast](https://asciinema.org/a/5ECuMBq83HbzIUb0mXHhNeMYk.svg)](https://asciinema.org/a/5ECuMBq83HbzIUb0mXHhNeMYk)
+#### brain-progression
+[![asciicast](https://asciinema.org/a/6JtlcO1Fc7S7WJwdssp1J7Wc8.svg)](https://asciinema.org/a/6JtlcO1Fc7S7WJwdssp1J7Wc8)
