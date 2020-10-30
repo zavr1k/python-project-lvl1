@@ -11,12 +11,12 @@ def progression():
     _step = randrange(1, 10)
     _end = _start + (10 * _step)
     sequence = enumerate(range(_start, _end, _step))
-    d = dict(sequence)
-    q = choice(list(d.keys()))
-    question = d[q]
-    d[q] = ".."
-    print("Question:", *d.values())
+    progression_dict = dict(sequence)
+    missing_char = choice(list(progression_dict.keys()))
+    hidden_char = progression_dict[missing_char]
+    progression_dict[missing_char] = ".."
+    print("Question:", *progression_dict.values())
     answer = prompt.integer("Your answer: ")
-    if answer == question:
-        return True, answer, question
-    return False, answer, question
+    if answer == hidden_char:
+        return True, answer, hidden_char
+    return False, answer, hidden_char

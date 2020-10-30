@@ -1,11 +1,15 @@
 [tool.poetry]
-name = "hexlet_code"
-version = "0.3.3"
+name = "zavr_brain_games"
+version = "0.1.0"
 description = ""
 authors = ["Anton <zavr35rus@gmail.com>"]
 packages = [
     { include = "brain_games" },
 ]
+
+[[tool.poetry.source]]
+name = "test_pypi"
+url = "https://test.pypi.org/legacy/"
 
 [tool.poetry.dependencies]
 python = "^3.8"

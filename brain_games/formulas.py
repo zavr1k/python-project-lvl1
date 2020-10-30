@@ -51,6 +51,6 @@ def get_gcd(n1, n2):
         if el in two:
             common[el] = min(one[el], two[el])
     res = 1
-    for el in common:
-        res *= int(el) ** common[el]
+    for key, value in common.items():
+        res *= int(key) ** value
     return res
