@@ -2,8 +2,7 @@ from random import randrange
 import prompt
 
 
-def rules():
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def even():

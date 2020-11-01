@@ -6,7 +6,7 @@ from brain_games.cli import welcome_user
 
 def main():
     name = welcome_user()
-    game.rules()
+    print(game.RULES)
     result = run_game(game.progression)
     game_result(result, name)
 

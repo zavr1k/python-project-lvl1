@@ -3,8 +3,7 @@ import prompt
 from brain_games.formulas import get_gcd
 
 
-def rules():
-    print("Find the greatest common divisor of given numbers.")
+RULES = "Find the greatest common divisor of given numbers."
 
 
 def gcd():

@@ -2,8 +2,7 @@ from random import randrange, choice
 import prompt
 
 
-def rules():
-    print("What number is missing in the progression?")
+RULES = "What number is missing in the progression?"
 
 
 def progression():

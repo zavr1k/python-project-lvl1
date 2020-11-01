@@ -3,6 +3,9 @@ from random import randrange, choice
 from operator import sub, add, mul
 
 
+RULES = "What is the result of the expression?"
+
+
 def calc():
     operators = {
         '+': add,
@@ -18,7 +21,3 @@ def calc():
     if answer == int(question):
         return True, answer, question
     return False, answer, question
-
-
-def rules():
-    print("What is the result of the expression?")

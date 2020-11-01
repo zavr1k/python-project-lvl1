@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "zavr_brain_games"
 version = "0.1.0"
-description = ""
+description = "Console games like short question-answer"
 authors = ["Anton <zavr35rus@gmail.com>"]
 packages = [
     { include = "brain_games" },
