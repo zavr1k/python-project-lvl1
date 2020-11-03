@@ -1,4 +1,8 @@
+from random import randrange
 from collections import Counter
+
+
+RULES = "Find the greatest common divisor of given numbers."
 
 
 def get_prim_numbers(number):
@@ -15,13 +19,6 @@ def get_prim_numbers(number):
         else:
             lst.append(i)
     return lst
-
-
-def is_prim_number(number):
-    prim_numbers = set(get_prim_numbers(number))
-    if number in prim_numbers:
-        return 'yes'
-    return 'no'
 
 
 def get_prim_divisors(number):
@@ -54,3 +51,11 @@ def get_gcd(n1, n2):
     for key, value in common.items():
         res *= int(key) ** value
     return res
+
+
+def get_q_a():
+    number1 = randrange(199)
+    number2 = randrange(199)
+    question = f"{number1} {number2}"
+    answer = str(get_gcd(number1, number2))
+    return question, answer

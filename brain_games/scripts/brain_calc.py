@@ -1,14 +1,10 @@
 #!/usr/bin/env python
-from brain_games.game_engine import run_game, game_result
-import brain_games.games.game_calc as game
-from brain_games.cli import welcome_user
+from brain_games.game_engine import run_game
+import brain_games.games.calc as calc
 
 
 def main():
-    name = welcome_user()
-    print(game.RULES)
-    result = run_game(game.calc)
-    game_result(result, name)
+    run_game(calc)
 
 
 if __name__ == '__main__':

@@ -1,14 +1,10 @@
 #!/usr/bin/env python
-from brain_games.game_engine import run_game, game_result
-import brain_games.games.game_even as game
-from brain_games.cli import welcome_user
+from brain_games.game_engine import run_game
+import brain_games.games.even as even
 
 
 def main():
-    name = welcome_user()
-    print(game.RULES)
-    result = run_game(game.even)
-    game_result(result, name)
+    run_game(even)
 
 
 if __name__ == '__main__':
