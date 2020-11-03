@@ -6,7 +6,11 @@ authors = ["Anton <zavr35rus@gmail.com>"]
 packages = [
     { include = "brain_games" },
 ]
-
+classifiers = [
+  "Topic :: Games/Entertainment",
+  "Development Status :: 2 - Pre Alpha",
+  "Programming Language :: Python 3.8"
+]
 [[tool.poetry.source]]
 name = "test_pypi"
 url = "https://test.pypi.org/legacy/"
