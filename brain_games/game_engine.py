@@ -17,4 +17,3 @@ def run_game(game):
               f"Let's try again, {name}!")
         return
     print(f"Congratulations, {name}!")
-    return
