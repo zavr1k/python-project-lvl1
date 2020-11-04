@@ -15,7 +15,7 @@ def get_gcd(*args):
             return i
 
 
-def get_q_a():
+def start_round():
     number1 = randrange(199)
     number2 = randrange(199)
     question = f"{number1} {number2}"

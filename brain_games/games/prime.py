@@ -14,7 +14,7 @@ def is_prime_number(number):
     return True
 
 
-def get_q_a():
+def start_round():
     number = randrange(100)
     question = str(number)
     if is_prime_number(number):

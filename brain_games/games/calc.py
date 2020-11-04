@@ -10,7 +10,7 @@ OPERATORS = {
 }
 
 
-def get_q_a():
+def start_round():
     number1 = randrange(99)
     number2 = randrange(99)
     operator = choice(list(OPERATORS.keys()))

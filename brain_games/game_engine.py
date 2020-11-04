@@ -6,7 +6,7 @@ def run_game(game):
     name = welcome_user()
     print(game.RULES)
     for _ in range(3):
-        question, answer = game.get_q_a()
+        question, answer = game.start_round()
         print(f"Question: {question}")
         user_answer = prompt.string("Your answer: ")
         if user_answer == answer:
