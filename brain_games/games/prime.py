@@ -22,6 +22,3 @@ def get_q_a():
     else:
         answer = 'no'
     return question, answer
-
-
-print(get_q_a())
