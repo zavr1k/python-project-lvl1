@@ -10,6 +10,5 @@ def start_round():
     _end = _start + (10 * _step)
     sequence = list(range(_start, _end, _step))
     answer = choice(sequence)
-    question = [x if x != answer else '..' for x in sequence]
-    question = " ".join(map(str, question))
+    question = " ".join([str(x) if x != answer else '..' for x in sequence])
     return question, str(answer)
