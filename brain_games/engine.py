@@ -1,9 +1,10 @@
-from brain_games.cli import welcome_user
 import prompt
 
 
 def run_game(game):
-    name = welcome_user()
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
+    print(f'(Hello, {name}!)')
     print(game.DESCRIPTION)
     NUMBER_OF_ROUNDS = 3
     for _ in range(NUMBER_OF_ROUNDS):
