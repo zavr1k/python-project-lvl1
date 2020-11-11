@@ -1,13 +1,14 @@
 from random import randint, choice
 
 
-RULES = "What number is missing in the progression?"
+DESCRIPTION = "What number is missing in the progression?"
 
 
-def start_round():
+def prepare_round():
+    _length = randint(5, 15)
     _start = randint(1, 99)
     _step = randint(1, 10)
-    _end = _start + (10 * _step)
+    _end = _start + (_length * _step)
     sequence = list(range(_start, _end, _step))
     answer = choice(sequence)
     question = " ".join([str(x) if x != answer else '..' for x in sequence])

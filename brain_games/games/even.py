@@ -1,10 +1,10 @@
 from random import randrange
 
 
-RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def start_round():
+def prepare_round():
     question = randrange(0, 999)
     if question % 2 == 0:
         answer = 'yes'

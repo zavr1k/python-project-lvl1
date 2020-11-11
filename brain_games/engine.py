@@ -4,9 +4,10 @@ import prompt
 
 def run_game(game):
     name = welcome_user()
-    print(game.RULES)
-    for _ in range(3):
-        question, answer = game.start_round()
+    print(game.DESCRIPTION)
+    NUMBER_OF_ROUNDS = 3
+    for _ in range(NUMBER_OF_ROUNDS):
+        question, answer = game.prepare_round()
         print(f"Question: {question}")
         user_answer = prompt.string("Your answer: ")
         if user_answer == answer:

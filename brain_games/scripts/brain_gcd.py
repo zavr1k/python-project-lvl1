@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from brain_games.game_engine import run_game
+from brain_games.engine import run_game
 import brain_games.games.gcd as gcd
 
 
