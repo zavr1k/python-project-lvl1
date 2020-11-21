@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "zavr-hexlet-code"
+name = "hexlet-code"
 version = "0.2.0"
 description = "Console games like short question-answer"
 authors = ["Anton <zavr35rus@gmail.com>"]
