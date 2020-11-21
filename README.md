@@ -1,7 +1,7 @@
 # Brain-Games
 
 [![Actions Status](https://github.com/zavr1k/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/zavr1k/python-project-lvl1/actions?query=workflow%3Ahexlet-check)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2d877aba025475857d7f/maintainability)](https://codeclimate.com/github/zavr1k/python-project-lvl1/maintainability)
 [![Make lint](https://github.com/zavr1k/python-project-lvl1/workflows/Make%20lint/badge.svg)](https://github.com/zavr1k/python-project-lvl1/actions?query=workflow%3A%22My+linter%22)
 
 This is short console games like question-answer:
