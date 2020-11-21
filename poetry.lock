@@ -44,7 +44,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 version = "2.2.0"
 
 [metadata]
-content-hash = "15ce84192e10b92596e462ae19dfa4f1968bc726370a14303cf091f5fadec4a4"
+content-hash = "5539569b220a8741c3c4ca4c284aba4fbea94fc5a2768dd11b7227b1cbc113a3"
 lock-version = "1.0"
 python-versions = "^3.8"
 
